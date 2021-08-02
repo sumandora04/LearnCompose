@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
                 Text(text = "World")
 
                 Row(verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.SpaceEvenly,
+                horizontalArrangement = Arrangement.Center,
                 modifier = Modifier
                     //.fillMaxWidth(0.5f)
                     .height(300.dp)

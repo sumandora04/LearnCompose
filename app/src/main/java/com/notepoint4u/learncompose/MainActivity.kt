@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
                 Text(text = "World")
 
                 Row(verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.Center,
+                horizontalArrangement = Arrangement.SpaceEvenly,
                 modifier = Modifier
                     //.fillMaxWidth(0.5f)
                     .height(300.dp)
@@ -46,6 +46,7 @@ class MainActivity : ComponentActivity() {
                 }
             }
 
+            //sdkjtfuysgufidgeiuyrf9ew8yrhn kjywekfhkwl 885bb8a00d74556ca8c713a0aba3720cabc74f2b
         }
     }
 }

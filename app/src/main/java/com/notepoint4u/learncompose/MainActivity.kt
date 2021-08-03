@@ -1,6 +1,7 @@
 package com.notepoint4u.learncompose
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
@@ -46,7 +47,13 @@ class MainActivity : ComponentActivity() {
                 }
             }
 
-            //sdkjtfuysgufidgeiuyrf9ew8yrhn kjywekfhkwl 885bb8a00d74556ca8c713a0aba3720cabc74f2b
+            //sdkjtfuysgufidgeiuyrf9ew8yrhn kjywekfhkwl 885bb8a00d74556ca8c713a0aba3720cabc74f2b.
+            //Some more changes for stash.
+
+            Toast.makeText(this,
+                "This toast should be in Experimental branch.",
+                Toast.LENGTH_SHORT)
+                .show()
         }
     }
 }

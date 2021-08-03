@@ -54,6 +54,8 @@ class MainActivity : ComponentActivity() {
                 "This toast should be in Experimental branch.",
                 Toast.LENGTH_SHORT)
                 .show()
+
+            println("The Test branch")
         }
     }
 }

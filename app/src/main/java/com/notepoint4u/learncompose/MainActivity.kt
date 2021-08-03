@@ -49,11 +49,14 @@ class MainActivity : ComponentActivity() {
 
             //sdkjtfuysgufidgeiuyrf9ew8yrhn kjywekfhkwl 885bb8a00d74556ca8c713a0aba3720cabc74f2b.
             print("This line changed in master")
+            print("This line in Test branch")
 
             Toast.makeText(this,
                 "This toast should be in Experimental branch.",
                 Toast.LENGTH_SHORT)
                 .show()
+
+            println("The Test branch")
         }
     }
 }
